@@ -1,0 +1,45 @@
+name: "🐞 Bug Report"
+description: Report an issue to help us improve CalcMyPrint
+title: "[Bug]: "
+labels: [bug]
+body:
+  - type: textarea
+    id: description
+    attributes:
+      label: Description
+      description: Please provide a clear and concise description of the bug.
+    validations:
+      required: true
+
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to Reproduce
+      description: How can we reproduce the problem?
+      placeholder: |
+        1. Go to '...'
+        2. Click on '...'
+        3. See error
+    validations:
+      required: true
+
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected Behavior
+      description: What should have happened instead?
+    validations:
+      required: true
+
+  - type: textarea
+    id: screenshots
+    attributes:
+      label: Screenshots / Logs
+      description: If applicable, add screenshots or logs to help explain the problem.
+
+  - type: input
+    id: browser
+    attributes:
+      label: Browser / Environment
+      description: Which browser or environment did you use?
+      placeholder: e.g. Chrome 117 / Firefox 118 / PWA
