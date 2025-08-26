@@ -1,6 +1,6 @@
 # CalcMyPrint Documentation
 
-This repository contains **documentation, guides, and resources** for [CalcMyPrint](https://calcmyprint.com) – a tool for calculating the cost of 3D printing, managing models, and tracking filament usage.
+This repository contains **documentation, guides, and resources** for [CalcMyPrint](https://calcmyprint.com) – a tool for calculating the cost of 3D printing, managing models.
 
 ## 🐞 Reporting Bugs and Suggestions
 If you encounter a bug or have an idea for improvement:
